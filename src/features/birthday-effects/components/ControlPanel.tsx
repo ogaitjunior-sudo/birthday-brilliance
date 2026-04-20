@@ -76,7 +76,7 @@ export function ControlPanel({
       {/* primary actions */}
       <div className="flex flex-wrap gap-2">
         <ActionButton onClick={onReplay} disabled={!current || isBusy}>
-          ↻ Replay
+          ↻ Repetir
         </ActionButton>
         <ActionButton onClick={onRandom} disabled={isBusy}>
           🎲 Aleatório
