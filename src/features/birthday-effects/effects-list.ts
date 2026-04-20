@@ -1,0 +1,81 @@
+import type { EffectId, EffectMeta } from "@/features/birthday-effects/effects";
+
+export const EFFECTS: EffectMeta[] = [
+  { id: "glow-zoom", label: "Glow Zoom", description: "Cinematic light burst", icon: "✨" },
+  {
+    id: "floating-letters",
+    label: "Floating Letters",
+    description: "Drift into formation",
+    icon: "🪶",
+  },
+  { id: "neon-flicker", label: "Neon Sign", description: "Vegas-style neon", icon: "💡" },
+  { id: "balloon-letters", label: "Balloon Lift", description: "Carried by balloons", icon: "🎈" },
+  { id: "confetti-celebration", label: "Confetti", description: "Party explosion", icon: "🎊" },
+  { id: "fireworks-reveal", label: "Fireworks", description: "Sky-lit reveal", icon: "🎆" },
+  { id: "cake-surprise", label: "Cake Surprise", description: "Candles ignite", icon: "🎂" },
+  { id: "gift-box", label: "Gift Box", description: "Magical unboxing", icon: "🎁" },
+  {
+    id: "particle-formation",
+    label: "Particle Swarm",
+    description: "Particles assemble",
+    icon: "✦",
+  },
+  {
+    id: "explosion-rebuild",
+    label: "Shatter & Rebuild",
+    description: "Explode, then return",
+    icon: "💥",
+  },
+  { id: "ribbon-swipe", label: "Ribbon Swipe", description: "Light streaks reveal", icon: "🎀" },
+  { id: "spark-trail", label: "Magic Handwriting", description: "Drawn by sparks", icon: "🪄" },
+  { id: "star-rain", label: "Star Rain", description: "Stars cascade down", icon: "⭐" },
+  { id: "pulse-celebration", label: "Heartbeat", description: "Pulses to a beat", icon: "❤️" },
+  { id: "bounce-text", label: "Bounce", description: "Springy entrance", icon: "🏀" },
+  { id: "rotating-letters", label: "3D Spin", description: "Letters rotate in", icon: "🌀" },
+  { id: "soft-elegant-fade", label: "Elegant Fade", description: "Luxurious shimmer", icon: "🕯️" },
+  {
+    id: "dual-language",
+    label: "Feliz em Dobro",
+    description: "Frase renasce em brilho",
+    icon: "🌐",
+  },
+  { id: "split-merge", label: "Split & Merge", description: "Words collide", icon: "↔️" },
+  {
+    id: "ultimate-finale",
+    label: "Ultimate Finale",
+    description: "Everything at once",
+    icon: "👑",
+  },
+  // New
+  { id: "liquid-metal", label: "Liquid Gold", description: "Molten metal pour", icon: "🪙" },
+  { id: "galaxy-portal", label: "Galaxy Portal", description: "Warp through space", icon: "🌌" },
+  { id: "typewriter-glitch", label: "Glitch Type", description: "Cyberpunk decode", icon: "⌨️" },
+  { id: "champagne-pop", label: "Champagne Pop", description: "Bubbles & cork", icon: "🍾" },
+  { id: "holographic-shift", label: "Hologram", description: "Iridescent shimmer", icon: "🪩" },
+  { id: "petal-shower", label: "Petal Shower", description: "Romantic petals fall", icon: "🌸" },
+  {
+    id: "kinetic-typography",
+    label: "Kinetic Type",
+    description: "Bold motion design",
+    icon: "🎬",
+  },
+  { id: "aurora-veil", label: "Aurora Veil", description: "Northern lights dance", icon: "🌠" },
+  {
+    id: "spotlight-reveal",
+    label: "Spotlight Reveal",
+    description: "Stage lights sweep in",
+    icon: "🔦",
+  },
+  { id: "cosmic-orbit", label: "Cosmic Orbit", description: "Planets circle the wish", icon: "🪐" },
+  { id: "candle-wish", label: "Candle Wish", description: "Flames glow and lift", icon: "🕯️" },
+  {
+    id: "laser-scan",
+    label: "Varredura Laser",
+    description: "Letras em feixes neon",
+    icon: "⚡",
+  },
+  { id: "photo-flash", label: "Photo Flash", description: "Snapshot memory pop", icon: "📸" },
+  { id: "samba-burst", label: "Samba Burst", description: "Rhythmic party blast", icon: "🎉" },
+];
+
+export const EFFECT_IDS: EffectId[] = EFFECTS.map((e) => e.id);
